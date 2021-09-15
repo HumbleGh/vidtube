@@ -1,13 +1,20 @@
 import React from 'react';
-import './Navbar.css'
+import './Navbar.css';
+import menu from '../Assets/menu.png';
+import logo from '../Assets/logo.png';
 
 
 const Navbar = () => {
-return (
-    <div className="bg-black-400">
-    <p> Hello world </p>
-</div>
-)
+    return (
+        <div className='nav-left'>
+            <img className='' src={menu} alt='image'></img>
+            <img className='' src={logo} alt='image'></img>
+            <div className='nav-middle'>
+                <div className='nav-right'>
+                </div>
+            </div>
+        </div>
+    )
 }
 
 
