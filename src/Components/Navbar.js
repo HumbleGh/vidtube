@@ -11,21 +11,14 @@ import Jack from '../Assets/Jack.png';
 
 const Navbar = () => {
     return (
-        <div class="flex-div"> 
-             <div className='nav-left'>
-                <img className='' src={menu} alt='image'></img>
-                <img className='' src={logo} alt='image'></img>
-             </div>   
-                <div 
-                className='nav-middle'>
-                </div>
-                    <div className='nav-right'>
-                    <img className='' src={upload} alt='image'></img>
-                    <img className='' src={more} alt='image'></img>
-                    <img className='' src={notification} alt='image'></img>
-                    <img className='' src={Jack} alt='image'></img>                   
-                    </div>
-        </div>
+        <span className="flex w-100 bg-blue-300 justify center">
+                    <img className="flex justify-center -mr-2" src={menu} alt='image'></img>
+                    <img className="flex " src={logo} alt='image'></img>  
+                    <img className="" src={upload} alt='image'></img>
+                    <img className="" src={more} alt='image'></img>
+                    <img className="" src={notification} alt='image'></img>
+                    <img className="" src={Jack} alt='image'></img>                     
+        </span>
     )
 };
 
